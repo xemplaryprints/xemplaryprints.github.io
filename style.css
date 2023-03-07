@@ -603,13 +603,6 @@ html, body {
 
 .logo {
     display: none;
-    position:fixed;
-    margin-left: 295px;
-    margin-top: 5px;
-    width: 60px;
-    border-radius: 50%;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
 
 }
 
@@ -651,6 +644,16 @@ html, body {
         right: 5px;
         z-index: 2;
     }
+    
+    .logo {
+    display: block;
+    position:fixed;
+    margin-left: 295px;
+    margin-top: 5px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
    
     .main-nav a {
         font-size: 15px;
