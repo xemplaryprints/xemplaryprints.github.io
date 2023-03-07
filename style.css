@@ -646,7 +646,6 @@ html, body {
     }
     
     .logo {
-    display: block;
     position:fixed;
     margin-left: 295px;
     margin-top: 5px;
